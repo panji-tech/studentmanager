@@ -9,6 +9,8 @@ spring:
       max-file-size: 30Mb
       max-request-size: 30Mb
 
+server:
+  port: 8080
 
 mybatis:
   type-aliases-package: com.wdd.studentmanager.domain
